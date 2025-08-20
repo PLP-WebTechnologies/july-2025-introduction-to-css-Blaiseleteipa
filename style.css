@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;   /* outer spacing */
+}
+
+header, footer {
+  background: #363b85;
+  color: white;
+  text-align: center;
+  padding: 10px;  /* box model: padding */
+}
+
+.topics, .card {
+  border: 1px solid #ccc;  /* box model: border */
+  padding: 10px;           /* box model: padding */
+  margin: 15px 0;          /* box model: margin */
+}
+
+h2 {
+  color: rgb(62, 114, 138);
+}
